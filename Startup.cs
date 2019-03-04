@@ -40,7 +40,7 @@ namespace Ejemplo
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
-            //SqliteEmpleadosRepository.InitDatabase();
+            SqliteEmpleadosRepository.InitDatabase();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
